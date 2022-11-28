@@ -1,2 +1,2 @@
 # cred
-Awsome Responsive Website Done by Abi
+Awesome Responsive Website Done by Abi

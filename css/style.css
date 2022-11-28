@@ -1,0 +1,203 @@
+html{
+    scroll-behaviour: smooth;
+
+}
+
+body{
+    font-size: 16px;
+    background-color: rgb(15, 15, 15);
+    color: black;
+    font-family: 'Oxygen',sans-serif;
+    overflow-x: hidden;
+}
+
+.nav{
+    height: 140px;
+    width: 100%;
+    left: 0px;
+    font-family: gilroy-bold;
+    padding-top: 30px;   
+
+}
+.nav-header{
+    display: block;
+
+}
+.nav-title{
+    margin-left: 200px;
+}
+
+.nav-title img{
+    height: 67px;
+}
+.nav-links{
+    float: right;
+    right: 0px;
+    margin-top: 25px;
+    margin-right: 200px;
+    font-size: 18px;
+}
+
+.nav-links > a{
+    display: inline-block;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* jumbroton */
+#form-title{
+    font-family: gilroy-bold;
+    font-size: 10rem;
+    color: white;
+    font-weight: 390;
+    margin-bottom: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    line-height: 120px;
+    font-weight: bold;
+
+}
+.form-desc{
+    font-family: gilroy-bold;
+    font-size: 30px !important;
+    color:white !important;
+    padding-left: 150px;
+    padding-right:150px;
+    font-weight: bold;
+
+
+}
+#form-button{
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+#touch{
+    border-radius: 37px;
+    height: 80px;
+    font-size: 26px;
+    width: 350px;
+    font-weight: bold;
+    font-family: gilroy-bold;
+}
+/*ANIMATION PART */
+#anim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#img1{
+    position: relative;
+    top: 45px;
+    left:-100px;
+}
+#img2{
+    position:relative;
+    top: 15px;
+    
+}
+#img3{
+    position: relative;
+    top:45px;
+    right:-100px;
+}
+
+@media(min-width: 767px) and (max-width: 991px)
+{
+    #form-title{
+        font-family: gilroy-bold;
+        font-size: 9rem;
+        color: white;
+        font-weight: 390;
+        margin-bottom: 30px;
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+        line-height: 120px;
+        font-weight: bold;
+    
+    }
+    #touch{
+        border-radius: 37px;
+        height: 60px;
+        font-size: 23px;
+        width: 250px;
+        font-weight: bold;
+        font-family: gilroy-bold;
+    }
+    
+
+
+
+}
+@media(max-width: 767px)
+{
+    .form{
+        margin-top: 300px;
+
+    }
+    #form-title{
+        font-family: gilroy-bold;
+        font-size: 5rem;
+        color: white;
+        font-weight: 390;
+        margin-bottom: 30px;
+        padding-left: 40px !important;
+        padding-right: 200px !important;
+        line-height: 53px;
+        font-weight: bold;
+        text-orientation: left !important;
+    
+    }
+    .form-desc{
+        font-family: gilroy-bold;
+        font-size: 25px !important;
+        color:white !important;
+        padding-left: 40px;
+        padding-right:180px;
+        font-weight: bold;
+    
+    
+    }
+    #touch{
+        border-radius: 37px;
+        height: 60px;
+        font-size: 23px;
+        width: 230px;
+        font-weight: bold;
+        font-family: gilroy-bold;
+        padding-left: 28px;
+    }
+    #form-button{
+        margin-top: 40px;
+        margin-bottom: 120px;
+        padding-left: 40px;
+        width: auto;
+    }
+}
+@media (max-width:479px)
+{
+    #form-title{
+        font-family: gilroy-bold;
+        font-size: 6rem;
+        color: white;
+        font-weight: 390;
+        margin-bottom: 30px;
+        padding-left: 40px !important;
+        padding-right: 150px !important;
+        line-height: 53px;
+        font-weight: bold;
+        text-orientation: left !important;
+    
+    }
+    .form-desc{
+        font-family: gilroy-bold;
+        font-size: 20px !important;
+        color:white !important;
+        padding-left: 40px  !important;
+        padding-right:180px !important;
+        font-weight: bold;
+    
+    
+    }
+
+}
+/* jumbroton */
